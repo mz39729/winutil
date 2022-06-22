@@ -10,5 +10,8 @@ iwr -useb http://winutil.migzam.com | iex
 -Tradución al español
 
 
+<br>Creditos: github.com/ChrisTitusTech
+
+
 
 
