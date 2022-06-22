@@ -6,7 +6,7 @@ Inicie el comando:
 ```
 iwr -useb http://winutil.migzam.com | iex
 ```
-Modificaciones:
+## Modificaciones:
 -Tradución al español
 
 
