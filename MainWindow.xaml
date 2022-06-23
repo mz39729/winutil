@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WinUtility"
         mc:Ignorable="d"
         Background="#777777"
-        Title="Chris Titus Tech's Windows Utility" Height="533" Width="786">
+        Title="Utilidades de Windows - MigZam" Height="533" Width="786">
 	<Viewbox>
 		<Grid Background="#777777" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
@@ -15,10 +15,10 @@
 			</Grid.ColumnDefinitions>
 			<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0">
 				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source="https://christitus.com/images/logo-full.png" Margin="0,10,0,10"/>
-				<Button Content="Install" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
-				<Button Content="Tweaks" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
-				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
-				<Button Content="Updates" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
+				<Button Content="Instalar" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
+				<Button Content="Ajustes" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
+				<Button Content="Configuración" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
+				<Button Content="Actualizaciones" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
 			</StackPanel>
 			<TabControl Grid.Column="1" Padding="-1" Name="TabNav" SelectedIndex="0">
 				<TabItem Header="Install" Visibility="Collapsed" Name="Tab1">
@@ -29,7 +29,7 @@
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
-							<Label Content="Browsers" FontSize="16" Margin="5,0"/>
+							<Label Content="Navegadores" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
 							<CheckBox Name="Installchrome" Content="Google Chrome" Margin="5,0"/>
 							<CheckBox Name="Installchromium" Content="Un-Googled Chromium" Margin="5,0"/>
@@ -37,7 +37,7 @@
 							<CheckBox Name="Installlibrewolf" Content="LibreWolf" Margin="5,0"/>
 							<CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
 
-							<Label Content="Communications" FontSize="16" Margin="5,0"/>
+							<Label Content="Comunicaciones" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
 							<CheckBox Name="Installhexchat" Content="Hexchat" Margin="5,0"/>
 							<CheckBox Name="Installmatrix" Content="Matrix" Margin="5,0"/>
@@ -48,7 +48,7 @@
 							<CheckBox Name="Installzoom" Content="Zoom Video Conference" Margin="5,0"/>
 							
 
-							<Label Content="Development" FontSize="16" Margin="5,0"/>
+							<Label Content="Desarrollo" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installatom" Content="Atom" Margin="5,0"/>
 							<CheckBox Name="Installgithubdesktop" Content="GitHub Desktop" Margin="5,0"/>
 							<CheckBox Name="Installjava8" Content="OpenJDK Java 8" Margin="5,0"/>
@@ -67,26 +67,26 @@
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
-							<Label Content="Document" FontSize="16" Margin="5,0"/>
+							<Label Content="Documentos" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
 							<CheckBox Name="Installlibreoffice" Content="LibreOffice" Margin="5,0"/>
 							<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
 							<CheckBox Name="Installobsidian" Content="Obsidian" Margin="5,0"/>
 							<CheckBox Name="Installsumatra" Content="Sumatra PDF" Margin="5,0"/>
 
-							<Label Content="Games" FontSize="16" Margin="5,0"/>
+							<Label Content="Juegos" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
 							<CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
 							<CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
 
-							<Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
+							<Label Content="Herramientas Pro" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
 							<CheckBox Name="Installmremoteng" Content="mRemoteNG" Margin="5,0"/>
 							<CheckBox Name="Installputty" Content="Putty" Margin="5,0"/>
 							<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
 							<CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
 
-							<Label Content="Multimedia Tools" FontSize="16" Margin="5,0"/>
+							<Label Content="Herramientas de Multimedia" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installaudacity" Content="Audacity" Margin="5,0"/>
 							<CheckBox Name="Installblender" Content="Blender (3D Graphics)" Margin="5,0"/>
 							<CheckBox Name="Installeartrumpet" Content="Eartrumpet (Audio)" Margin="5,0"/>
@@ -106,14 +106,14 @@
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
-							<Label Content="Utilities" FontSize="16" Margin="5,0"/>
+							<Label Content="Utilidades" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
 							<CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
 							<CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
 							<CheckBox Name="Installbitwarden" Content="Bitwarden" Margin="5,0"/>
 							<CheckBox Name="Installcpuz" Content="CPU-Z" Margin="5,0"/>
 							<CheckBox Name="Installetcher" Content="Etcher USB Creator" Margin="5,0"/>
-							<CheckBox Name="Installesearch" Content="Everything Search" Margin="5,0"/>
+							<CheckBox Name="Installesearch" Content="Everything Search - Búsqueda de todo" Margin="5,0"/>
 							<CheckBox Name="Installgpuz" Content="GPU-Z" Margin="5,0"/>
 							<CheckBox Name="Installhwinfo" Content="HWInfo" Margin="5,0"/>
 							<CheckBox Name="Installkeepass" Content="KeePassXC" Margin="5,0"/>
@@ -123,12 +123,12 @@
 							<CheckBox Name="Installrevo" Content="RevoUninstaller" Margin="5,0"/>
 							<CheckBox Name="Installrufus" Content="Rufus Imager" Margin="5,0"/>
 							<CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
-							<CheckBox Name="Installttaskbar" Content="Translucent Taskbar" Margin="5,0"/>
+							<CheckBox Name="Installttaskbar" Content="Barra de tareas translúcida" Margin="5,0"/>
 							<CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
 							<CheckBox Name="Installwindirstat" Content="WinDirStat" Margin="5,0"/>
 							<CheckBox Name="Installterminal" Content="Windows Terminal" Margin="5,0"/>
-							<Button Name="install" Background="AliceBlue" Content="Start Install" Margin="20,5,20,5" ToolTip="Install all checked programs"/>
-							<Button Name="InstallUpgrade" Background="AliceBlue" Content="Upgrade Installs" Margin="20,5,20,5" ToolTip="Upgrade All Existing Programs on System"/>
+							<Button Name="install" Background="AliceBlue" Content="Iniciar Instalación" Margin="20,5,20,5" ToolTip="Instalar todos los programas seleccionados" FontSize="16"/>
+							<Button Name="InstallUpgrade" Background="AliceBlue" Content="Instalar Actualizaciones" Margin="20,5,20,5" FontSize="16" ToolTip="Actualizar todos los programas existentes en el sistema"/>
 
 						</StackPanel>
 					</Grid>
@@ -144,40 +144,40 @@
 							<RowDefinition Height="6*"/>
 						</Grid.RowDefinitions>
 						<StackPanel Background="#777777" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2">
-							<Label Content="Recommended Selections:" FontSize="17" VerticalAlignment="Center"/>
-							<Button Name="desktop" Content="Desktop" Margin="7"/>
-							<Button Name="laptop" Content="Laptop" Margin="7"/>
-							<Button Name="minimal" Content="Minimal" Margin="7"/>
+							<Label Content="Selecciones recomendadas:" FontSize="17" VerticalAlignment="Center"/>
+							<Button Name="desktop" Content="Escritorio" Margin="7"/>
+							<Button Name="laptop" Content="Portatiles" Margin="7"/>
+							<Button Name="minimal" Content="Mínima" Margin="7"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="0" Margin="10,5">
-							<Label FontSize="16" Content="Essential Tweaks"/>
-							<CheckBox Name="EssTweaksRP" Content="Create Restore Point" Margin="5,0"/>
-							<CheckBox Name="EssTweaksOO" Content="Run O and O Shutup" Margin="5,0"/>
-							<CheckBox Name="EssTweaksTele" Content="Disable Telemetry" Margin="5,0"/>
-							<CheckBox Name="EssTweaksWifi" Content="Disable Wifi-Sense" Margin="5,0"/>
-							<CheckBox Name="EssTweaksAH" Content="Disable Activity History" Margin="5,0"/>
-							<CheckBox Name="EssTweaksLoc" Content="Disable Location Tracking" Margin="5,0"/>
-							<CheckBox Name="EssTweaksHome" Content="Disable Homegroup" Margin="5,0"/>
-							<CheckBox Name="EssTweaksStorage" Content="Disable Storage Sense" Margin="5,0"/>
-							<CheckBox Name="EssTweaksHiber" Content="Disable Hibernation" Margin="5,0"/>
-							<CheckBox Name="EssTweaksDVR" Content="Disable GameDVR" Margin="5,0"/>
-							<CheckBox Name="EssTweaksServices" Content="Set Services to Manual" Margin="5,0"/>
+							<Label FontSize="16" Content="Ajustes esenciales"/>
+							<CheckBox Name="EssTweaksRP" Content="Crear punto de restauración" Margin="5,0"/>
+							<CheckBox Name="EssTweaksOO" Content="Ejecutar O y O ShutUp" Margin="5,0"/>
+							<CheckBox Name="EssTweaksTele" Content="Desactivar la telemetría" Margin="5,0"/>
+							<CheckBox Name="EssTweaksWifi" Content="Desactivar Wifi-Sense" Margin="5,0"/>
+							<CheckBox Name="EssTweaksAH" Content="Desactivar el historial de actividades" Margin="5,0"/>
+							<CheckBox Name="EssTweaksLoc" Content="Desactivar el seguimiento de la ubicación" Margin="5,0"/>
+							<CheckBox Name="EssTweaksHome" Content="Desactivar el Grupo Hogar" Margin="5,0"/>
+							<CheckBox Name="EssTweaksStorage" Content="Desactivar Storage Sense/Sensor de almacenamiento" Margin="5,0"/>
+							<CheckBox Name="EssTweaksHiber" Content="Desactivar la hibernación" Margin="5,0"/>
+							<CheckBox Name="EssTweaksDVR" Content="Desactivar GameDVR" Margin="5,0"/>
+							<CheckBox Name="EssTweaksServices" Content="Establecer servicios en manual" Margin="5,0"/>
 
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
-							<Label FontSize="16" Content="Misc. Tweaks"/>
-							<CheckBox Name="MiscTweaksPower" Content="Disable Power Throttling" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksLapPower" Content="Enable Power Throttling" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksNum" Content="Enable NumLock on Startup" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksLapNum" Content="Disable Numlock on Startup" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksExt" Content="Show File Extensions" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksDisplay" Content="Set Display for Performance" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksUTC" Content="Set Time to UTC (Dual Boot)" Margin="5,0"/>
-							<CheckBox Name="EssTweaksDeBloat" Content="Remove ALL MS Store Apps" Margin="5,0"/>
+							<Label FontSize="16" Content="Varios Ajustes"/>
+							<CheckBox Name="MiscTweaksPower" Content="Desactivar acelerador de energia" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksLapPower" Content="Hactivar acelerador de energia" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksNum" Content="Activar el bloqueo numérico al inicio" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksLapNum" Content="Desactivar el bloqueo numérico al inicio" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksExt" Content="Mostrar extensiones de archivos" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksDisplay" Content="Configurar la pantalla para el rendimiento" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksUTC" Content="Establecer hora en UTC (arranque dual)" Margin="5,0"/>
+							<CheckBox Name="EssTweaksDeBloat" Content="Eliminar TODAS las Apps de MS Store" Margin="5,0"/>
 
-							<Button Name="tweaksbutton" Background="AliceBlue" Content="Run Tweaks" Margin="20,10,20,0"/>
-							<Button Name="undoall" Background="AliceBlue" Content="Undo All Tweaks" Margin="20,5"/>
+							<Button Name="tweaksbutton" Background="AliceBlue" Content="Ejecutar ajustes" Margin="20,10,20,0"/>
+							<Button Name="undoall" Background="AliceBlue" Content="Deshacer todos los ajustes" Margin="20,5"/>
 						</StackPanel>
 					</Grid>
 				</TabItem>
@@ -188,25 +188,25 @@
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10,5">
-							<Label Content="Features" FontSize="16"/>
-							<CheckBox Name="Featuresdotnet" Content="All .Net Framework (2,3,4)" Margin="5,0"/>
-							<CheckBox Name="Featureshyperv" Content="HyperV Virtualization" Margin="5,0"/>
-							<CheckBox Name="Featureslegacymedia" Content="Legacy Media (WMP, DirectPlay)" Margin="5,0"/>
-							<CheckBox Name="Featurenfs" Content="NFS - Network File System" Margin="5,0"/>
-							<CheckBox Name="Featurewsl" Content="Windows Subsystem for Linux" Margin="5,0"/>
-							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Install Features" Margin="20,5,20,0" Padding="10"/>
-							<Label Content="Fixes" FontSize="16"/>
-							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Reset Windows Update" Margin="20,5,20,0" Padding="10"/>
+							<Label Content="Características" FontSize="16"/>
+							<CheckBox Name="Featuresdotnet" Content="Todos .Net Framework (2,3,4)" Margin="5,0"/>
+							<CheckBox Name="Featureshyperv" Content="HyperV Virtualización" Margin="5,0"/>
+							<CheckBox Name="Featureslegacymedia" Content="Medios heredados (WMP, DirectPlay)" Margin="5,0"/>
+							<CheckBox Name="Featurenfs" Content="NFS - Sistema de archivos en red" Margin="5,0"/>
+							<CheckBox Name="Featurewsl" Content="Subsistema Windows para Linux" Margin="5,0"/>
+							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Instalar Características" Margin="20,5,20,0" Padding="10"/>
+							<Label Content="Correcciones" FontSize="16"/>
+							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Restablecer actualización de Windows" Margin="20,5,20,0" Padding="10"/>
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
-							<Label Content="Legacy Windows Panels" FontSize="16"/>
-							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Control Panel" Margin="20,5,20,5" Padding="10"/>
-							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Network Connections" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelpower" FontSize="14" Background="AliceBlue" Content="Power Panel" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelsound" FontSize="14" Background="AliceBlue" Content="Sound Settings" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelsystem" FontSize="14" Background="AliceBlue" Content="System Properties" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Paneluser" FontSize="14" Background="AliceBlue" Content="User Accounts" Margin="20,0,20,5" Padding="10"/>
+							<Label Content="Paneles de Windows heredados" FontSize="16"/>
+							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Panel Control" Margin="20,5,20,5" Padding="10"/>
+							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Conexiones de red" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelpower" FontSize="14" Background="AliceBlue" Content="Panel de control" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelsound" FontSize="14" Background="AliceBlue" Content="Ajustes de sonido" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelsystem" FontSize="14" Background="AliceBlue" Content="Propiedades del sistema" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Paneluser" FontSize="14" Background="AliceBlue" Content="Cuentas de usuario" Margin="20,0,20,5" Padding="10"/>
 						</StackPanel>
 					</Grid>
 				</TabItem>
@@ -219,16 +219,16 @@
 						</Grid.RowDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="0" Margin="10,5">
 
-							<TextBlock Text="This is the default settings that come with Windows. No modifications are made and will remove any custom windows update settings." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
-							<Button Name="Updatesdefault" FontSize="16" Background="AliceBlue" Content="Default (Out of Box) Settings" Margin="20,0,20,10" Padding="10"/>
+							<TextBlock Text="Esta es la configuración por defecto que viene con Windows. No se realizan modificaciones y se eliminará cualquier configuración de actualización de Windows personalizada." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
+							<Button Name="Updatesdefault" FontSize="16" Background="AliceBlue" Content="Configuración predeterminada (Fuera de la Caja)" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Margin="10,5">
-							<TextBlock Text="This is my recommended setting I use on all computers. It will delay feature updates by 2 years and will install security updates 4 days after release. These are the settings I use in buisness environments." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
-							<Button Name="Updatessecurity" FontSize="16" Background="AliceBlue" Content="Security (Recommended) Settings" Margin="20,0,20,10" Padding="10"/>
+							<TextBlock Text="Esta es la configuración recomendada que utilizo en todos los ordenadores. Retrasará las actualizaciones de características en 2 años e instalará las actualizaciones de seguridad 4 días después del lanzamiento. Esta es la configuración que utilizo en entornos empresariales." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
+							<Button Name="Updatessecurity" FontSize="16" Background="AliceBlue" Content="Configuración de seguridad (recomendada)" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="2" Margin="10,5">
-							<TextBlock Text="This completely disables ALL Windows Updates and is NOT RECOMMENDED. You system will be easier to hack and infect without security updates. However, it can be suitable if you use your system for a select purpose and do not actively browse the internet." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
-							<Button Name="Updatesdisable" FontSize="16" Background="AliceBlue" Content="Disable ALL Updates (NOT RECOMMENDED!)" Margin="20,0,20,10" Padding="10"/>
+							<TextBlock Text="Esto desactiva completamente TODAS las actualizaciones de Windows y NO ES RECOMENDABLE. Su sistema será más fácil de hackear e infectar sin actualizaciones de seguridad. Sin embargo, puede ser adecuado si utiliza su sistema para un propósito selecto y no navega activamente por Internet." Margin="20,0,20,0" Padding="10" TextWrapping="WrapWithOverflow" MaxWidth="300"/>
+							<Button Name="Updatesdisable" FontSize="16" Background="AliceBlue" Content="Desactivar TODAS las actualizaciones (¡NO ES RECOMENDABLE!)" Margin="20,0,20,10" Padding="10"/>
 						</StackPanel>
 
 					</Grid>
