@@ -168,7 +168,7 @@
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
 							<Label FontSize="16" Content="Varios Ajustes"/>
 							<CheckBox Name="MiscTweaksPower" Content="Desactivar acelerador de energia" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksLapPower" Content="Hactivar acelerador de energia" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksLapPower" Content="Activar acelerador de energia" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksNum" Content="Activar el bloqueo numérico al inicio" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksLapNum" Content="Desactivar el bloqueo numérico al inicio" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksExt" Content="Mostrar extensiones de archivos" Margin="5,0"/>
