@@ -197,7 +197,8 @@
 							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Instalar Características" Margin="20,5,20,0" Padding="10"/>
 							<Label Content="Correcciones" FontSize="16"/>
 							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Restablecer actualización de Windows" Margin="20,5,20,0" Padding="10"/>
-
+							<Label Content="Adicionales" FontSize="16"/>
+							<Button Name="Getwlanprofiles" FontSize="14" Background="AliceBlue" Content="Extraer Contraseñas WIFI" Margin="20,0,20,5" Padding="10"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
 							<Label Content="Paneles de Windows heredados" FontSize="16"/>
@@ -207,6 +208,7 @@
 							<Button Name="Panelsound" FontSize="14" Background="AliceBlue" Content="Ajustes de sonido" Margin="20,0,20,5" Padding="10"/>
 							<Button Name="Panelsystem" FontSize="14" Background="AliceBlue" Content="Propiedades del sistema" Margin="20,0,20,5" Padding="10"/>
 							<Button Name="Paneluser" FontSize="14" Background="AliceBlue" Content="Cuentas de usuario" Margin="20,0,20,5" Padding="10"/>
+							
 						</StackPanel>
 					</Grid>
 				</TabItem>

