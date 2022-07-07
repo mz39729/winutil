@@ -11,8 +11,9 @@ o el siguiente comando para ejecutar como Administrador.
 ```
 Start-Process powershell.exe -Verb RunAs -ArgumentList "iwr -useb http://winutil.migzam.com | iex"
 ```
-## Modificaciones:
--Tradución al español
+## Modificaciones y Agregados:
+-Tradución al español<br>
+-Extraer contraseñas WIFI: Configuración
 
 
 <br>Creditos: github.com/ChrisTitusTech
