@@ -1,7 +1,9 @@
-# Caja de herramientas y utilidades para Administrar, Optimizar, instalar Apps de Windows
+# Caja de herramientas y utilidades para Administrar, Optimizar, instalar Apps necesarias de Windows
 
+Herramienta, utilidad, aplicación para desbloquear Windows 7/8/10, eliminar aplicaciones necesarias preinstaladas de Windows, detener algunas funciones de telemetría, instalacion de programas necesarios, extrae constraseñas de WIFI, desactiva actualizaciones y mucho más...<br><br>
 
-# Abra PowerShell
+# Como Ejecutarlo
+<h3>Abra PowerShell</h3>
 Inicie el comando:
 
 ```
