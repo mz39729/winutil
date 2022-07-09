@@ -5,8 +5,8 @@
     Version 0.0.1
 #>
 
-$inputXML = Get-Content "MainWindow.xaml" #descomentar para el desarrollo
-#$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/mz39729/winutil/main/MainWindow.xaml") #descomentar para Producción
+#$inputXML = Get-Content "MainWindow.xaml" #descomentar para el desarrollo
+$inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/mz39729/winutil/main/MainWindow.xaml") #descomentar para Producción
 
 $inputXML = $inputXML -replace 'mc:Ignorable="d"','' -replace "x:N",'N' -replace '^<Win.*', '<Window'
 [void][System.Reflection.Assembly]::LoadWithPartialName('presentationframework')
