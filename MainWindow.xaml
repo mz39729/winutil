@@ -15,21 +15,21 @@
 			</Grid.ColumnDefinitions>
 			<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0">
 				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source="https://raw.githubusercontent.com/mz39729/winutil/main/logo.png" Margin="0,10,0,10"/>
-				<Button Content="Instalar" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
-				<Button Content="Ajustes" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
-				<Button Content="Configuración" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
-				<Button Content="Actualizaciones" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
+				<Button Content="Instalar" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
+				<Button Content="Ajustes" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
+				<Button Content="Configuración" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
+				<Button Content="Actualizaciones" VerticalAlignment="Top" Height="40" Background="#666666" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
 			</StackPanel>
 			<TabControl Grid.Column="1" Padding="-1" Name="TabNav" SelectedIndex="0">
 				<TabItem Header="Install" Visibility="Collapsed" Name="Tab1">
-					<Grid Background="#222222">
+					<Grid Background="#333333">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
-							<Label Content="Navegadores" FontSize="16" Margin="5,0"/>
+							<Label Content="Navegadores" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
 							<CheckBox Name="Installchrome" Content="Google Chrome" Margin="5,0"/>
 							<CheckBox Name="Installchromium" Content="Un-Googled Chromium" Margin="5,0"/>
@@ -37,7 +37,7 @@
 							<CheckBox Name="Installlibrewolf" Content="LibreWolf" Margin="5,0"/>
 							<CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
 
-							<Label Content="Comunicaciones" FontSize="16" Margin="5,0"/>
+							<Label Content="Comunicaciones" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
 							<CheckBox Name="Installhexchat" Content="Hexchat" Margin="5,0"/>
 							<CheckBox Name="Installmatrix" Content="Matrix" Margin="5,0"/>
@@ -48,7 +48,7 @@
 							<CheckBox Name="Installzoom" Content="Zoom Video Conference" Margin="5,0"/>
 							
 
-							<Label Content="Desarrollo" FontSize="16" Margin="5,0"/>
+							<Label Content="Desarrollo" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installatom" Content="Atom" Margin="5,0"/>
 							<CheckBox Name="Installgithubdesktop" Content="GitHub Desktop" Margin="5,0"/>
 							<CheckBox Name="Installjava8" Content="OpenJDK Java 8" Margin="5,0"/>
@@ -67,26 +67,26 @@
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
-							<Label Content="Documentos" FontSize="16" Margin="5,0"/>
+							<Label Content="Documentos" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
 							<CheckBox Name="Installlibreoffice" Content="LibreOffice" Margin="5,0"/>
 							<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
 							<CheckBox Name="Installobsidian" Content="Obsidian" Margin="5,0"/>
 							<CheckBox Name="Installsumatra" Content="Sumatra PDF" Margin="5,0"/>
 
-							<Label Content="Juegos" FontSize="16" Margin="5,0"/>
+							<Label Content="Juegos" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
 							<CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
 							<CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
 
-							<Label Content="Herramientas Pro" FontSize="16" Margin="5,0"/>
+							<Label Content="Herramientas Pro" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
 							<CheckBox Name="Installmremoteng" Content="mRemoteNG" Margin="5,0"/>
 							<CheckBox Name="Installputty" Content="Putty" Margin="5,0"/>
 							<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
 							<CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
 
-							<Label Content="Herramientas de Multimedia" FontSize="16" Margin="5,0"/>
+							<Label Content="Herramientas de Multimedia" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installaudacity" Content="Audacity" Margin="5,0"/>
 							<CheckBox Name="Installblender" Content="Blender (3D Graphics)" Margin="5,0"/>
 							<CheckBox Name="Installeartrumpet" Content="Eartrumpet (Audio)" Margin="5,0"/>
@@ -106,7 +106,7 @@
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
-							<Label Content="Utilidades" FontSize="16" Margin="5,0"/>
+							<Label Content="Utilidades" FontSize="16" Margin="5,0" FontWeight="Bold"/>
 							<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
 							<CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
 							<CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
@@ -134,7 +134,7 @@
 					</Grid>
 				</TabItem>
 				<TabItem Header="Tweaks" Visibility="Collapsed" Name="Tab2">
-					<Grid Background="#333333">
+					<Grid Background="#444444">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
@@ -144,13 +144,13 @@
 							<RowDefinition Height="6*"/>
 						</Grid.RowDefinitions>
 						<StackPanel Background="#777777" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2">
-							<Label Content="Selecciones recomendadas:" FontSize="17" VerticalAlignment="Center"/>
+							<Label Content="Selecciones recomendadas:" FontSize="17" VerticalAlignment="Center" FontWeight="Bold"/>
 							<Button Name="desktop" Content="Escritorio" Margin="7"/>
 							<Button Name="laptop" Content="Portatiles" Margin="7"/>
 							<Button Name="minimal" Content="Mínima" Margin="7"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="0" Margin="10,5">
-							<Label FontSize="16" Content="Ajustes esenciales"/>
+							<Label FontSize="16" Content="Ajustes esenciales" FontWeight="Bold"/>
 							<CheckBox Name="EssTweaksRP" Content="Crear punto de restauración" Margin="5,0"/>
 							<CheckBox Name="EssTweaksOO" Content="Ejecutar O y O ShutUp" Margin="5,0"/>
 							<CheckBox Name="EssTweaksTele" Content="Desactivar la telemetría" Margin="5,0"/>
@@ -162,17 +162,22 @@
 							<CheckBox Name="EssTweaksHiber" Content="Desactivar la hibernación" Margin="5,0"/>
 							<CheckBox Name="EssTweaksDVR" Content="Desactivar GameDVR" Margin="5,0"/>
 							<CheckBox Name="EssTweaksServices" Content="Establecer servicios en manual" Margin="5,0"/>
+							<!--Add-->
+							<CheckBox Name="EssTweaksOneDrive" Content="Eliminar y deshabilitar OneDrive" Margin="5,0"/>
+							<CheckBox Name="EssTweaksBackGroundApps" Content="Deshabilitar App en segundo plano" Margin="5,0"/>
+							<CheckBox Name="EssTweaksCortana" Content="Deshabilitar Cortana (Search)" Margin="5,0"/>
 
 
+						<!--Add-->		
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
-							<Label FontSize="16" Content="Varios Ajustes"/>
+							<Label FontSize="16" Content="Varios Ajustes" FontWeight="Bold"/>
 							<CheckBox Name="MiscTweaksPower" Content="Desactivar acelerador de energia" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksLapPower" Content="Activar acelerador de energia" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksNum" Content="Activar el bloqueo numérico al inicio" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksLapNum" Content="Desactivar el bloqueo numérico al inicio" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksExt" Content="Mostrar extensiones de archivos" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksDisplay" Content="Configurar la pantalla para el rendimiento" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksDisplay" Content="Configurar la pantalla para mejor rendimiento" Margin="5,0"/>
 							<CheckBox Name="MiscTweaksUTC" Content="Establecer hora en UTC (arranque dual)" Margin="5,0"/>
 							<CheckBox Name="EssTweaksDeBloat" Content="Eliminar TODAS las Apps de MS Store" Margin="5,0"/>
 
@@ -182,26 +187,26 @@
 					</Grid>
 				</TabItem>
 				<TabItem Header="Config" Visibility="Collapsed" Name="Tab3">
-					<Grid Background="#444444">
+					<Grid Background="#555555">
 						<Grid.ColumnDefinitions>
 							<ColumnDefinition Width="1*"/>
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10,5">
-							<Label Content="Características" FontSize="16"/>
+							<Label Content="Características" FontSize="16" FontWeight="Bold"/>
 							<CheckBox Name="Featuresdotnet" Content="Todos .Net Framework (2,3,4)" Margin="5,0"/>
 							<CheckBox Name="Featureshyperv" Content="HyperV Virtualización" Margin="5,0"/>
 							<CheckBox Name="Featureslegacymedia" Content="Medios heredados (WMP, DirectPlay)" Margin="5,0"/>
 							<CheckBox Name="Featurenfs" Content="NFS - Sistema de archivos en red" Margin="5,0"/>
 							<CheckBox Name="Featurewsl" Content="Subsistema Windows para Linux" Margin="5,0"/>
 							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Instalar Características" Margin="20,5,20,0" Padding="10"/>
-							<Label Content="Correcciones" FontSize="16"/>
+							<Label Content="Correcciones" FontSize="16" FontWeight="Bold"/>
 							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Restablecer actualización de Windows" Margin="20,5,20,0" Padding="10"/>
-							<Label Content="Adicionales" FontSize="16"/>
+							<Label Content="Adicionales" FontSize="16" FontWeight="Bold"/>
 							<Button Name="Getwlanprofiles" FontSize="14" Background="AliceBlue" Content="Extraer Contraseñas WIFI" Margin="20,0,20,5" Padding="10"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
-							<Label Content="Paneles de Windows heredados" FontSize="16"/>
+							<Label Content="Paneles de Windows heredados" FontSize="16" FontWeight="Bold"/>
 							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Panel Control" Margin="20,5,20,5" Padding="10"/>
 							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Conexiones de red" Margin="20,0,20,5" Padding="10"/>
 							<Button Name="Panelpower" FontSize="14" Background="AliceBlue" Content="Panel de control" Margin="20,0,20,5" Padding="10"/>
@@ -213,7 +218,7 @@
 					</Grid>
 				</TabItem>
 				<TabItem Header="Updates" Visibility="Collapsed" Name="Tab4">
-					<Grid Background="#555555">
+					<Grid Background="#666666">
 						<Grid.RowDefinitions>
 							<RowDefinition/>
 							<RowDefinition/>
